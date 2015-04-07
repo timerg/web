@@ -1,0 +1,453 @@
+
+/*
+ *  general styles
+ */
+
+.new {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+.new ol,
+.new ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.new h2 {
+    color: hsl(210, 50%, 40%);
+    font-size: 250%;
+    margin-top: 60px;
+}
+
+.new h3 {
+    font-size: 200%;
+    margin: 80px 0 0;
+    overflow: hidden;
+}
+.new h4 {
+    font-family: 'Montserrat', sans-serif;
+    color:  hsl(210, 40%, 50%);
+    margin: 20px 0;
+    font-size: 150%;
+}
+.new h5 {
+    color: hsl(217, 3%, 50%);
+    margin: 20px 0;
+    font-size: 130%;
+}
+
+.new a {
+    text-decoration: none;
+}
+.new a:hover {
+    text-decoration: underline;
+}
+
+
+/********************************************/
+/*   Program                                */
+/********************************************/
+
+.new li > a,
+.new li > a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.new #program {
+    margin: 40px 20px;
+    font-size: 150%;
+    float: left;
+}
+
+.new #program li:hover {
+    /*background: #f4f4f4;*/
+    /*color: #474;*/
+    color: #369;
+}
+
+.new #program li:hover a {
+    text-decoration: none !important;
+}
+.new #program li > a {
+    display: block;
+    padding: 15px 20px;
+}
+
+.new .note {
+    font-family: verdana;
+    color: grey;
+    font-size: 40%;
+    margin-left: 40px;
+    font-weight: normal;
+}
+
+.new .discussion-icon,
+.new .discussion {
+    color: #c44;
+}
+
+.new .discussion::after {
+    content: "■";
+    font-size: 200%;
+    color: #c44;
+    position: relative;
+    top: 5px;
+}
+.new .hands-on-project-icon,
+.new .hands-on-project {
+    color: #ca4;
+}
+
+.new .hands-on-project::after {
+    content: "■";
+    font-size: 200%;
+    color: #ca4;
+    position: relative;
+    top: 5px;
+}
+
+.new .closing-ceremony-icon,
+.new .closing-ceremony {
+    color: #474;
+}
+
+.new .closing-ceremony::after {
+    content: "■";
+    font-size: 200%;
+    color: #474;
+    position: relative;
+    top: 5px;
+}
+
+.new .project-presentation-icon,
+.new .project-presentation {
+    color:hsla(57, 68%, 68%, 1);
+}
+.new .project-presentation::after {
+    content: "■";
+    font-size: 200%;
+    color: hsla(57, 68%, 68%, 1);
+    position: relative;
+    top: 5px;
+}
+
+.new .speaches-icon,
+.new .speaches {
+    color: #369;
+}
+.new .speaches::after {
+    content: "■";
+    font-size: 200%;
+    color: #369;
+    position: relative;
+    top: 5px;
+}
+.new .date {
+    width: 120px;
+    float: left;
+    color: #333;
+}
+
+.new .topic {
+    margin-left: 120px;
+    font-weight: bold;
+}
+
+/*
+ *   Schedule
+ */
+
+.new .schedule {
+    margin: 0px 20px;
+}
+
+.new .schedule > li {
+    overflow: hidden;
+    padding: 10px 0;
+    border-bottom: 3px #eee solid;
+}
+
+.new .schedule > li:last-of-type {
+    border-bottom: none;
+}
+
+/* header-date */
+
+.new .header-date {
+    background: black;
+    text-align: center;
+    width: 100px;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    color: white;
+    font-weight: normal;
+    display: block;
+    float: left;
+}
+
+.new .header-title {
+    margin-left: 180px;
+    padding: 20px;
+}
+
+/* time */
+.new .time {
+    float: left;
+    width: 100px;
+    padding: 40px;
+}
+
+.new .time time {
+    display: block;
+    text-align: center;
+}
+
+.new .timedate {
+    display: none !important;
+}
+
+.new .time-start {
+    font-size: 200%;
+}
+
+.new .time-end {
+    font-size: 100%;
+    color: grey;
+}
+
+/* session */
+
+.new .session-header {
+
+}
+
+.new .session {
+    margin-left: 160px;
+    padding: 20px
+}
+
+.new .session h4 {
+    margin: 20px 0;
+    font-size: 200%;
+    color: #474;
+}
+
+.new .session .speaker {
+    font-size: 150%;
+    color: grey;
+}
+
+.new .session .from {
+    color: grey;
+}
+
+.new .session.break h4 {
+    font-size: 200%;
+    color: #aaa;
+}
+
+/********************************************/
+/*   Accommodation                          */
+/********************************************/
+
+
+.new figure.hero {
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+.new figure.hero img {
+    width: 100%;
+}
+.new figure.hero figcaption {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #222;
+    font-size: 105%;
+    /*width:40%;*/
+    /*text-align: left;*/
+    }
+.new figure.hero figcaption#formal {
+    font-family: 'Roboto Slab';
+    color: #333;
+    font-size: 100%;
+    text-align:center;
+}
+.new figure.hero figcaption#formal2 {
+    font-family: 'Roboto Slab';
+    font-style: italic;
+    color: #333;
+    font-size: 100%;
+    text-align:justify;
+}
+.new figure.hero figcaption a:visited {
+    color: inherit;
+    text-align: left;
+    float: left
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+
+}
+
+.new a:-webkit-any-link{
+    /*text-decoration:none !important;*/
+}
+/*.new .box{
+  text-align: left;
+  background: black;
+  color: white;
+  overflow: hidden;
+  }
+
+.new .box p{
+  font-family: 'PT Sans Narrow';
+  float: left;
+  font-size: 160%;
+  width: 50%;
+  }
+.new .box img{
+  float: right;
+  width:50%;
+  min-width:100px*/
+
+/*}*/
+.new .box{
+    overflow: hidden;
+}
+.new .linkcaption1 {
+    color: hsl(210, 50%, 40%) !important;
+    font-size: 120%;
+}
+
+.new .linkcaption1:hover {
+    color:  hsl(210, 40%, 40%) !important;
+}
+.new .linkcaption2 {
+    color: #261 !important;
+    font-size: 120%;
+}
+
+/********************************************/
+/*   General                                */
+/********************************************/
+
+.new .detail {
+    float: left;
+    width: 70%;
+}
+
+.new .speaker:after {
+   content: ".";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.new .detail ul {
+    margin: 20px;
+}
+
+
+.new .detail-header-outer {
+    width: 30%;
+    display: inline-block;
+}
+
+.new .detail-header {
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.new .detail-body-outer {
+    width: 70%;
+    display: inline-block;
+}
+
+.new .detail-body {
+    padding: 10px 20px;
+    background: green;
+}
+
+/* pics */
+.new .picture {
+    float: left;
+    width: 30%;
+}
+.new .picture > figure {
+    margin: 20px;
+    /*background: red;*/
+}
+.new .picture2{
+    margin: 20px 68px;
+}
+.new figure.conf{
+    width: 40%;
+    float: left;
+    margin:13px 20px;
+}
+.new figure.conf figcaption{
+    font-family: 'Roboto Slab';
+    color: #333;
+    font-size: 100%;
+    text-align:center;
+}
+
+
+ /*table*/
+ .new table.prog {
+     height: 300px;
+     font-size: 5px;
+}
+.new table.prog td,
+.new table.prog th{
+     height: 30px;
+
+     padding: 0;
+     text-align: center;
+}
+ .new table.prog th.tdate{
+     color: #fff;
+     background: #222;
+
+ }
+ .new table.prog th.time {
+
+}
+ .new table.prog td.speach {
+     background:hsla(210, 50%, 40%, 0.6);
+}
+.new table.prog td.forum {
+    background: hsla(0, 65%, 42%, 0.71);
+}
+.new table.prog td.break {
+    background: #eee;
+}
+.new table.prog td.bs {
+    background: hsla(0, 0%, 90%, 1);
+}
+.new table.prog td.hp {
+    background: hsla(45, 57%, 53%, 6);
+}
+.new table.prog td#cs {
+    background: hsla(120, 27%, 37%, 6);
+}
+.new table.prog td#pp {
+    background: hsla(57, 68%, 68%, 0.6);
+}
+
+
+.new table.trans{
+      border-spacing: 0px;
+      padding-top:10px;
+      border-color: #555;
+}
+.new table.trans td.category{
+    font-size: 12px;
+    text-align:left;
+    width: 178px
+}

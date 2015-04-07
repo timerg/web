@@ -1,0 +1,833 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> conference program </title>
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
+        <style type="text/css">
+            body {
+                font-family: 'Montserrat', sans-serif;
+                padding: 40px;
+            }
+
+            ol, ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+
+
+            h2 {
+                color: #369;
+                font-size: 250%;
+                margin-top: 60px;
+            }
+
+            h3 {
+                font-size: 200%;
+                margin: 80px 0 0;
+            }
+
+            li > a,
+            li > a:visited {
+                text-decoration: none;
+                color: inherit;
+            }
+
+
+            /*
+             *   Program
+             */
+
+            #program {
+                margin: 40px 20px;
+                font-size: 150%;
+            }
+
+            #program li:hover {
+                /*background: #f4f4f4;*/
+                /*color: #474;*/
+                color: #369;
+            }
+
+            #program li > a {
+                display: block;
+                padding: 15px 20px;
+            }
+
+            .note {
+                font-family: verdana;
+                color: grey;
+                font-size: 40%;
+                margin-left: 40px;
+                font-weight: normal;
+            }
+
+            .discussion-icon,
+            .discussion {
+                color: #c44;
+            }
+
+            .discussion::after {
+                content: "■";
+                font-size: 200%;
+                color: #c44;
+                position: relative;
+                top: 5px;
+            }
+            .hands-on-project-icon,
+            .hands-on-project {
+                color: #ca4;
+            }
+
+            .hands-on-project::after {
+                content: "■";
+                font-size: 200%;
+                color: #ca4;
+                position: relative;
+                top: 5px;
+            }
+
+            .closing-ceremony-icon,
+            .closing-ceremony {
+                color: #474;
+            }
+
+            .closing-ceremony::after {
+                content: "■";
+                font-size: 200%;
+                color: #474;
+                position: relative;
+                top: 5px;
+            }
+            .date {
+                width: 120px;
+                float: left;
+                color: #333;
+            }
+
+            .topic {
+                margin-left: 120px;
+                font-weight: bold;
+            }
+
+            /*
+             *   Schedule
+             */
+
+            .schedule {
+                margin: 0px 20px;
+            }
+
+            .schedule > li {
+                overflow: hidden;
+                padding: 10px 0;
+                border-bottom: 3px #eee solid;
+            }
+
+            .schedule > li:last-of-type {
+                border-bottom: none;
+            }
+
+            /* header-date */
+
+            .header-date {
+                /*background: #369;*/
+                background: black;
+                margin-right: 40px;
+                /*border: 3px black solid ;*/
+                padding: 10px 20px;
+                color: white;
+                font-weight: normal;
+            }
+
+            /* time */
+            .time {
+                float: left;
+                width: 100px;
+                padding: 40px 40px 40px 40px;
+                /*min-width: 100px;*/
+                /*max-width: 200px;*/
+            }
+
+            .time time {
+                display: block;
+                text-align: center;
+            }
+            .timedate {
+            font-size: 0;
+            }
+
+            .time-start {
+                font-size: 200%;
+            }
+
+            .time-end {
+                font-size: 100%;
+                color: grey;
+            }
+
+            /* session */
+
+            .session {
+                /*float: left;*/
+                margin-left: 160px;
+                padding: 20px
+            }
+
+            .session h4 {
+                margin: 20px 0;
+                font-size: 200%;
+                color: #474;
+            }
+
+            .session .speaker {
+                font-size: 150%;
+                color: grey;
+            }
+            .session .from {
+                color: grey;
+            }
+
+
+            .session.break h4 {
+                font-size: 200%;
+                color: #aaa;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <h2>Program<span class="note">with <span class="discussion">Discussion Forum</span>, <span class="hands-on-project">Hands-On Project</span> or <span class="closing-ceremony">Closing Ceremony</span></span></h2>
+        <ol id="program">
+            <li><a href="#24-aug">
+                <div class="date">24 Aug</div>
+                <div class="topic">Registration and Open Ceremony <span class="discussion-icon"</div>
+            <li><a href="#25-aug">
+                <div class="date">25 Aug</div>
+                <div class="topic">Computational Neuroscience <span class="discussion-icon">■</span> <span class="hands-on-project-icon">■</span></div>
+            </a></li>
+            <li><a href="#26-aug">
+                <div class="date">26 Aug</div>
+                <div class="topic">Neuroinformatics <span class="discussion-icon">■</span> <span class="hands-on-project-icon">■</span></div>
+            </a></li>
+            <li><a href="#27-aug">
+                <div class="date">27 Aug</div>
+                <div class="topic">Neuromorphic Devices and Systems <span class="discussion-icon">■</span> <span class="hands-on-project-icon">■</span></div>
+            </a></li>
+            <li><a href="#28-aug">
+                <div class="date">28 Aug</div>
+                <div class="topic">Brainstorming Sessions</div>
+            </a></li>
+            <li><a href="#29-aug">
+                <div class="date">29 Aug</div>
+                <div class="topic">Neuromorphic Computation with Devices in Advanced Technologies <span class="discussion-icon">■</span> <span class="hands-on-project-icon">■</span></div>
+            </a></li>
+            <li><a href="#30-aug">
+                <div class="date">30 Aug</div>
+                <div class="topic">Brain-Machine Interface and Neural Prostheses <span class="hands-on-project-icon">■</span></div>
+            </a></li>
+            <li><a href="#31-aug">
+                <div class="date">31 Aug</div>
+                <div class="topic">Adaptive, Hybrid Neuroelectronic Systems <span class="closing-ceremony-icon">■</span></div>
+            </a></li>
+        </ol>
+        <h2>Daily Schedule</h2>
+        <h3 id="24-aug"><time class="header-date">24 Aug</time> Registration and Open Ceremony</h3>
+        <ol class="schedule">
+            <li>
+                <div class="time">
+                    <time class="time-start"><time class="timedate">24 Aug</time>14:00</time>
+                    <time class="time-end"><time class="timedate">24 Aug</time>18:00</time>
+                </div><div class="session">
+                    <h4>Resgitration</h4>
+                    <div class="speaker">NDHU</div>
+                    <div class="from">Some Where</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </li>
+            <li>
+                <div class="time">
+                    <time class="time-start"><time class="timedate">24 Aug</time>18:00</time>
+                    <time class="time-end"><time class="timedate">24 Aug</time>21:00</time>
+                </div><div class="session">
+                    <h4>Open Ceremony</h4>
+                    <div class="speaker">Prof. Chen, Hsin</br>Prof. Tang, Kea-Tiong</div>
+                    <div class="from">Some Where</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </li>
+        </ol>
+
+
+        <h3 id="25-aug"><time class="header-date">25 Aug</time> Computational Neuroscience</h3>
+        <ol class="schedule">
+            <li>
+                <div class="time">
+                    <time class="time-start"><time class="timedate">25 Aug</time>9:00</time>
+                    <time class="time-end"><time class="timedate">25 Aug</time>10:30</time>
+                </div><div class="session">
+                    <h4>Some Session Topic</h4>
+                    <div class="speaker">Prof. Some Speaker</div>
+                    <div class="from">Some Where</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </li>
+            <li>
+                <div class="time">
+                    <time class="time-start"><time class="timedate">25 Aug</time>10:30</time>
+                    <time class="time-end"><time class="timedate">25 Aug</time>11:00</time>
+                </div><div class="session break">
+                    <h4>Coffee Break</h4>
+                </div>
+            </li>
+            <li>
+                <div class="time">
+                    <time class="time-start"><time class="timedate">25 Aug</time>11:00</time>
+                    <time class="time-end"><time class="timedate">25 Aug</time>12:30</time>
+                </div><div class="session">
+                    <h4>Some Session Topic</h4>
+                    <div class="speaker">Prof. Some Speaker</div>
+                    <div class="from">Some Where</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </li>
+            <li>
+                <div class="time">
+                    <time class="time-start"><time class="timedate">25 Aug</time>12:30</time>
+                    <time class="time-end"><time class="timedate">25 Aug</time>14:00</time>
+                </div><div class="session break">
+                    <h4>Lunch</h4>
+                </div>
+            </li>
+            <li>
+                <div class="time">
+                    <time class="time-start"><time class="timedate">25 Aug</time>14:00</time>
+                    <time class="time-end"><time class="timedate">25 Aug</time>15:30</time>
+                </div><div class="session">
+                    <h4>Discussion Forums (led by)</h4>
+                    <div class="speaker">Prof. Some Speaker</div>
+                    <div class="from">Some Where</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </li>
+            <li>
+                <div class="time">
+                    <time class="time-start"><time class="timedate">25 Aug</time>15:30</time>
+                    <time class="time-end"><time class="timedate">25 Aug</time>16:00</time>
+                </div><div class="session break">
+                    <h4>Coffee Break</h4>
+                </div>
+            </li>
+            <li>
+                <div class="time">
+                    <time class="time-start"><time class="timedate">25 Aug</time>16:00</time>
+                    <time class="time-end"><time class="timedate">25 Aug</time>19:00</time>
+                </div><div class="session">
+                    <h4>Hands-On Project</h4>
+                    <div class="speaker">Prof. Some Speaker</div>
+                    <div class="from">Some Where</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </li>
+            <li>
+                <div class="time">
+                    <time class="time-start"><time class="timedate">25 Aug</time>19:00</time>
+                    <time class="time-end"><time class="timedate">25 Aug</time>21:00</time>
+                </div><div class="session break">
+                    <h4>Dinner</h4>
+                </div>
+            </li>
+        </ol>
+        <h3 id="26-aug"><time class="header-date">26 Aug</time> Computational Neuroscience</h3>
+        <ol class="schedule">
+            <li>
+                <div class="time">
+                    <time class="time-start"><time class="timedate">26 Aug</time>9:00</time>
+                    <time class="time-end"><time class="timedate">26 Aug</time>10:30</time>
+                </div><div class="session">
+                    <h4>Some Session Topic</h4>
+                    <div class="speaker">Prof. Some Speaker</div>
+                    <div class="from">Some Where</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </li>
+            <li>
+                <div class="time">
+                    <time class="time-start"><time class="timedate">26 Aug</time>10:30</time>
+                    <time class="time-end"><time class="timedate">26 Aug</time>11:00</time>
+                </div><div class="session break">
+                    <h4>Coffee Break</h4>
+                </div>
+            </li>
+            <li>
+                <div class="time">
+                    <time class="time-start"><time class="timedate">26 Aug</time>11:00</time>
+                    <time class="time-end"><time class="timedate">26 Aug</time>12:30</time>
+                </div><div class="session">
+                    <h4>Some Session Topic</h4>
+                    <div class="speaker">Prof. Some Speaker</div>
+                    <div class="from">Some Where</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </li>
+            <li>
+                <div class="time">
+                    <time class="time-start"><time class="timedate">26 Aug</time>12:30</time>
+                    <time class="time-end"><time class="timedate">26 Aug</time>14:00</time>
+                </div><div class="session break">
+                    <h4>Lunch</h4>
+                </div>
+            </li>
+            <li>
+                <div class="time">
+                    <time class="time-start"><time class="timedate">26 Aug</time>14:00</time>
+                    <time class="time-end"><time class="timedate">26 Aug</time>15:30</time>
+                </div><div class="session">
+                    <h4>Discussion Forums (led by)</h4>
+                    <div class="speaker">Prof. Some Speaker</div>
+                    <div class="from">Some Where</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </li>
+            <li>
+                <div class="time">
+                    <time class="time-start"><time class="timedate">26 Aug</time>15:30</time>
+                    <time class="time-end"><time class="timedate">26 Aug</time>16:00</time>
+                </div><div class="session break">
+                    <h4>Coffee Break</h4>
+                </div>
+            </li>
+            <li>
+                <div class="time">
+                    <time class="time-start"><time class="timedate">26 Aug</time>16:00</time>
+                    <time class="time-end"><time class="timedate">26 Aug</time>19:00</time>
+                </div><div class="session">
+                    <h4>Hands-On Project</h4>
+                    <div class="speaker">Prof. Some Speaker</div>
+                    <div class="from">Some Where</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </li>
+            <li>
+                <div class="time">
+                    <time class="time-start"><time class="timedate">26 Aug</time>19:00</time>
+                    <time class="time-end"><time class="timedate">26 Aug</time>21:00</time>
+                </div><div class="session break">
+                    <h4>Dinner</h4>
+                </div>
+            </li>
+        </ol>
+        <h3 id="27-aug"><time class="header-date">27 Aug</time> Neuromorphic Devices and Systems</h3>
+        <ol class="schedule">
+            <li>
+                <div class="time">
+                    <time class="time-start"><time class="timedate">27 Aug</time>9:00</time>
+                    <time class="time-end"><time class="timedate">27 Aug</time>10:30</time>
+                </div><div class="session">
+                    <h4>Some Session Topic</h4>
+                    <div class="speaker">Prof. Some Speaker</div>
+                    <div class="from">Some Where</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </li>
+            <li>
+                <div class="time">
+                    <time class="time-start"><time class="timedate">27 Aug</time>10:30</time>
+                    <time class="time-end"><time class="timedate">27 Aug</time>11:00</time>
+                </div><div class="session break">
+                    <h4>Coffee Break</h4>
+                </div>
+            </li>
+            <li>
+                <div class="time">
+                    <time class="time-start"><time class="timedate">27 Aug</time>11:00</time>
+                    <time class="time-end"><time class="timedate">27 Aug</time>12:30</time>
+                </div><div class="session">
+                    <h4>Some Session Topic</h4>
+                    <div class="speaker">Prof. Some Speaker</div>
+                    <div class="from">Some Where</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </li>
+            <li>
+                <div class="time">
+                    <time class="time-start"><time class="timedate">27 Aug</time>12:30</time>
+                    <time class="time-end"><time class="timedate">27 Aug</time>14:00</time>
+                </div><div class="session break">
+                    <h4>Lunch</h4>
+                </div>
+            </li>
+            <li>
+                <div class="time">
+                    <time class="time-start"><time class="timedate">27 Aug</time>14:00</time>
+                    <time class="time-end"><time class="timedate">27 Aug</time>15:30</time>
+                </div><div class="session">
+                    <h4>Discussion Forums (led by)</h4>
+                    <div class="speaker">Prof. Some Speaker</div>
+                    <div class="from">Some Where</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </li>
+            <li>
+                <div class="time">
+                    <time class="time-start"><time class="timedate">27 Aug</time>15:30</time>
+                    <time class="time-end"><time class="timedate">27 Aug</time>16:00</time>
+                </div><div class="session break">
+                    <h4>Coffee Break</h4>
+                </div>
+            </li>
+            <li>
+                <div class="time">
+                    <time class="time-start"><time class="timedate">27 Aug</time>16:00</time>
+                    <time class="time-end"><time class="timedate">27 Aug</time>19:00</time>
+                </div><div class="session">
+                    <h4>Hands-On Project</h4>
+                    <div class="speaker">Prof. Some Speaker</div>
+                    <div class="from">Some Where</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </li>
+            <li>
+                <div class="time">
+                    <time class="time-start"><time class="timedate">27 Aug</time>19:00</time>
+                    <time class="time-end"><time class="timedate">27 Aug</time>21:00</time>
+                </div><div class="session break">
+                    <h4>Dinner</h4>
+                </div>
+            </li>
+        </ol>
+        <h3 id="28-aug"><time class="header-date">28 Aug</time> Brainstorming Sessions </h3>
+        <ol class="schedule">
+            <li>
+                <div class="time">
+                    <time class="time-start"><time class="timedate">28 Aug</time>9:00</time>
+                    <time class="time-end"><time class="timedate">28 Aug</time>21:00</time>
+                </div><div class="session">
+                    <h4>Brainstorming</h4>
+                    <div class="speaker">NDHU</div>
+                    <div class="from"></div>
+                    <p></p>
+                </div>
+            </li>
+        </ol>
+            <h3 id="29-aug"><time class="header-date">29 Aug</time>Neuromorphic Computation with Devices in Advanced Technologies </h3>
+            <ol class="schedule">
+                <li>
+                    <div class="time">
+                        <time class="time-start"><time class="timedate">29 Aug</time>9:00</time>
+                        <time class="time-end"><time class="timedate">29 Aug</time>10:30</time>
+                    </div><div class="session">
+                        <h4>Some Session Topic</h4>
+                        <div class="speaker">Prof. Some Speaker</div>
+                        <div class="from">Some Where</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="time">
+                        <time class="time-start"><time class="timedate">29 Aug</time>10:30</time>
+                        <time class="time-end"><time class="timedate">29 Aug</time>11:00</time>
+                    </div><div class="session break">
+                        <h4>Coffee Break</h4>
+                    </div>
+                </li>
+                <li>
+                    <div class="time">
+                        <time class="time-start"><time class="timedate">29 Aug</time>11:00</time>
+                        <time class="time-end"><time class="timedate">29 Aug</time>12:30</time>
+                    </div><div class="session">
+                        <h4>Some Session Topic</h4>
+                        <div class="speaker">Prof. Some Speaker</div>
+                        <div class="from">Some Where</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="time">
+                        <time class="time-start"><time class="timedate">29 Aug</time>12:30</time>
+                        <time class="time-end"><time class="timedate">29 Aug</time>14:00</time>
+                    </div><div class="session break">
+                        <h4>Lunch</h4>
+                    </div>
+                </li>
+                <li>
+                    <div class="time">
+                        <time class="time-start"><time class="timedate">29 Aug</time>14:00</time>
+                        <time class="time-end"><time class="timedate">29 Aug</time>15:30</time>
+                    </div><div class="session">
+                        <h4>Discussion Forums (led by)</h4>
+                        <div class="speaker">Prof. Some Speaker</div>
+                        <div class="from">Some Where</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="time">
+                        <time class="time-start"><time class="timedate">29 Aug</time>15:30</time>
+                        <time class="time-end"><time class="timedate">29 Aug</time>16:00</time>
+                    </div><div class="session break">
+                        <h4>Coffee Break</h4>
+                    </div>
+                </li>
+                <li>
+                    <div class="time">
+                        <time class="time-start"><time class="timedate">29 Aug</time>16:00</time>
+                        <time class="time-end"><time class="timedate">29 Aug</time>19:00</time>
+                    </div><div class="session">
+                        <h4>Hands-On Project</h4>
+                        <div class="speaker">Prof. Some Speaker</div>
+                        <div class="from">Some Where</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="time">
+                        <time class="time-start"><time class="timedate">29 Aug</time>19:00</time>
+                        <time class="time-end"><time class="timedate">29 Aug</time>21:00</time>
+                    </div><div class="session break">
+                        <h4>Dinner</h4>
+                    </div>
+                </li>
+            </ol>
+            <h3 id="30-aug"><time class="header-date">30 Aug</time>Brain-Machine Interface and Neural Prostheses</h3>
+            <ol class="schedule">
+                <li>
+                    <div class="time">
+                        <time class="time-start"><time class="timedate">30 Aug</time>9:00</time>
+                        <time class="time-end"><time class="timedate">30 Aug</time>10:30</time>
+                    </div><div class="session">
+                        <h4>Some Session Topic</h4>
+                        <div class="speaker">Prof. Some Speaker</div>
+                        <div class="from">Some Where</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="time">
+                        <time class="time-start"><time class="timedate">30 Aug</time>10:30</time>
+                        <time class="time-end"><time class="timedate">30 Aug</time>11:00</time>
+                    </div><div class="session break">
+                        <h4>Coffee Break</h4>
+                    </div>
+                </li>
+                <li>
+                    <div class="time">
+                        <time class="time-start"><time class="timedate">30 Aug</time>11:00</time>
+                        <time class="time-end"><time class="timedate">30 Aug</time>12:30</time>
+                    </div><div class="session">
+                        <h4>Some Session Topic</h4>
+                        <div class="speaker">Prof. Some Speaker</div>
+                        <div class="from">Some Where</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="time">
+                        <time class="time-start"><time class="timedate">30 Aug</time>12:30</time>
+                        <time class="time-end"><time class="timedate">30 Aug</time>14:00</time>
+                    </div><div class="session break">
+                        <h4>Lunch</h4>
+                    </div>
+                </li>
+                <li>
+                    <div class="time">
+                        <time class="time-start"><time class="timedate">30 Aug</time>14:00</time>
+                        <time class="time-end"><time class="timedate">30 Aug</time>15:30</time>
+                    </div><div class="session">
+                        <h4>Some Session Topic</h4>
+                        <div class="speaker">Prof. Some Speaker</div>
+                        <div class="from">Some Where</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="time">
+                        <time class="time-start"><time class="timedate">30 Aug</time>15:30</time>
+                        <time class="time-end"><time class="timedate">30 Aug</time>16:00</time>
+                    </div><div class="session break">
+                        <h4>Coffee Break</h4>
+                    </div>
+                </li>
+                <li>
+                    <div class="time">
+                        <time class="time-start"><time class="timedate">30 Aug</time>16:00</time>
+                        <time class="time-end"><time class="timedate">30 Aug</time>19:00</time>
+                    </div><div class="session">
+                        <h4>Hands-On Project</h4>
+                        <div class="speaker">Prof. Some Speaker</div>
+                        <div class="from">Some Where</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="time">
+                        <time class="time-start"><time class="timedate">30 Aug</time>19:00</time>
+                        <time class="time-end"><time class="timedate">30 Aug</time>21:00</time>
+                    </div><div class="session break">
+                        <h4>Dinner</h4>
+                    </div>
+                </li>
+            </ol>
+            <h3 id="31-aug"><time class="header-date">31 Aug</time>Adaptive, Hybrid Neuroelectronic Systems</h3>
+            <ol class="schedule">
+                <li>
+                    <div class="time">
+                        <time class="time-start"><time class="timedate">31 Aug</time>9:00</time>
+                        <time class="time-end"><time class="timedate">31 Aug</time>10:30</time>
+                    </div><div class="session">
+                        <h4>Some Session Topic</h4>
+                        <div class="speaker">Prof. Some Speaker</div>
+                        <div class="from">Some Where</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="time">
+                        <time class="time-start"><time class="timedate">31 Aug</time>10:30</time>
+                        <time class="time-end"><time class="timedate">31 Aug</time>11:00</time>
+                    </div><div class="session break">
+                        <h4>Coffee Break</h4>
+                    </div>
+                </li>
+                <li>
+                    <div class="time">
+                        <time class="time-start"><time class="timedate">31 Aug</time>11:00</time>
+                        <time class="time-end"><time class="timedate">31 Aug</time>12:30</time>
+                    </div><div class="session">
+                        <h4>Some Session Topic</h4>
+                        <div class="speaker">Prof. Some Speaker</div>
+                        <div class="from">Some Where</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="time">
+                        <time class="time-start"><time class="timedate">31 Aug</time>12:30</time>
+                        <time class="time-end"><time class="timedate">31 Aug</time>14:00</time>
+                    </div><div class="session break">
+                        <h4>Lunch</h4>
+                    </div>
+                </li>
+                <li>
+                    <div class="time">
+                        <time class="time-start"><time class="timedate">31 Aug</time>14:00</time>
+                        <time class="time-end"><time class="timedate">31 Aug</time>15:30</time>
+                    </div><div class="session">
+                        <h4>Some Session Topic</h4>
+                        <div class="speaker">Prof. Some Speaker</div>
+                        <div class="from">Some Where</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="time">
+                        <time class="time-start"><time class="timedate">31 Aug</time>15:30</time>
+                        <time class="time-end"><time class="timedate">31 Aug</time>16:00</time>
+                    </div><div class="session break">
+                        <h4>Coffee Break</h4>
+                    </div>
+                </li>
+                <li>
+                    <div class="time">
+                        <time class="time-start"><time class="timedate">31 Aug</time>16:00</time>
+                        <time class="time-end"><time class="timedate">31 Aug</time>19:00</time>
+                    </div><div class="session">
+                        <h4>Project Presentation</h4>
+                        <div class="speaker"></div>
+                        <div class="from"></div>
+                        <p></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="time">
+                        <time class="time-start"><time class="timedate">31 Aug</time>19:00</time>
+                        <time class="time-end"><time class="timedate">31 Aug</time>21:00</time>
+                    </div><div class="session">
+                        <h4>Closing Ceremony</h4>
+                        <div class="speaker"></div>
+                        <div class="from"></div>
+                        <p></p>
+                    </div>
+                </li>
+            </ol>
+        <!--
+                    <th>Computational Neuroscience</th>
+                    <th>Neuroinformatics</th>
+                    <th>Neuromorphic Devices and Systems</th>
+                    <th>Brainstorming Sessions</th>
+                    <th>Neuromorphic Computation with Devices in Advanced Technologies </th>
+                    <th>Brain-Machine Interface and Neural Prostheses</th>
+                    <th>Adaptive, Hybrid Neuroelectronic Systems</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="time"><time>9:00</time>-<time>10:30</time></th>
+                    <td>Speaker1-1</td>
+                    <td>Speaker2-1</td>
+                    <td>Speaker3-1</td>
+                    <td rowspan="9"></td>
+                    <td>Speaker5-1</td>
+                    <td>Speaker6-1</td>
+                    <td>Speaker7-1</td>
+                </tr>
+                <tr>
+                    <th class="break time">10:30-11:00</th>
+                    <td class="break" colspan="3">Coffee Break</td>
+                    <td class="break" colspan="3"></td>
+                </tr>
+                <tr>
+                    <th class="time">11:00-12:30</th>
+                    <td>Speaker1-2</td>
+                    <td>Speaker2-2</td>
+                    <td>Speaker3-2</td>
+                    <td>Speaker5-2</td>
+                    <td>Speaker6-2</td>
+                    <td>Speaker7-2</td>
+                </tr>
+                <tr>
+                    <th class="break time">12:30-14:00</th>
+                    <td class="break" colspan="3">Lunch</td>
+                    <td class="break" colspan="3"></td>
+                </tr>
+                <tr>
+                    <th class="time" rowspan="2">14:00-15:30</th>
+                    <td class="forum"colspan="3">Discussion Forums</td>
+                    <td class="forum"></td>
+                    <td rowspan="2">Speaker5-3</td>
+                    <td rowspan="2">Speaker6-3</td>
+
+
+
+                </tr>
+                <tr>
+                    <td>Speaker1-3,4</td>
+                    <td>Speaker2-3,4</td>
+                    <td>Speaker3-3,4</td>
+                    <td>Speaker4-3,4</td>
+                </tr>
+                <tr>
+                    <th class="break time">15:30-16:00</th>
+                    <td class="break" colspan="3">Coffee Break</td>
+                    <td class="break" colspan="3"></td>
+                </tr>
+                <tr>
+                    <th class="time">16:00-19:00</th>
+                    <td colspan="3">Hands-On Projects</td>
+                    <td colspan="2"></td>
+                    <td>Project Presentation</td>
+
+                </tr>
+                <tr>
+                    <th class="break time">19:00-21:00</th>
+                    <td class="break" colspan="3">Dinner</td>
+                    <td class="break" colspan="2"></td>
+                    <td>Closing Ceremony</td>
+                </tr>
+            </tbody>
+        </table> -->
+    </body>
+</html>

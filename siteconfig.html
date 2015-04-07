@@ -1,0 +1,148 @@
+<?php
+    include_once (dirname(__FILE__).'/../class/class.site_config.php');
+    $ConfSite_Config = new ConfSite_Config();
+?>
+<SCRIPT LANGUAGE="JavaScript">
+var cp = new ColorPicker(); // Popup window
+var cp2 = new ColorPicker(); // DIV style
+</SCRIPT>
+<div class="boxed">
+    <h1 class="title2">Site Configuration</h1>
+    <form method="post" action="<?=$_SERVER['PHP_SELF'];?>" enctype="multipart/form-data" >
+
+    <table class="tbl noborder">
+
+    <!-- {{{ Full Name -->
+    <tr>
+        <td>Conference Full Name</td>
+        <td>
+            <input type="text" class="inputtext" name="fullname"
+            value="<?=$ConfSite_Config->showConfig('fullname')?>" /> 
+        </td>
+    </tr>
+    <tr>
+        <td colspan=2 class="right">(e.g. 20<sup>th</sup> International Symposium on ... )</td>
+    </tr>
+    <tr>
+        <td>Full name color on logo</td>
+        <td>
+        <INPUT TYPE="text" class="inputtext" ID="fullcolor" NAME="fullcolor"
+        VALUE="<?=$ConfSite_Config->showConfig('fullcolor')?>"> 
+        <input type="button" value="PICK" class="inputbtn"
+        NAME="pick1" ID="pick1"
+        onClick="cp.select(document.getElementById('fullcolor'),'pick1');return false;" >
+        </td>
+    </tr>
+    <!-- }}} Full Name -->
+    
+    <!-- {{{ Abbr Name -->
+    <tr>
+        <td>Abbr. Conference Name</td>
+        <td>
+            <input type="text" class="inputtext" name="abbrname"
+            value="<?=$ConfSite_Config->showConfig('abbrname')?>" /> 
+        </td>
+    </tr>
+    <tr>
+        <td colspan=2 class="right">(e.g. CONF<?=date("Y")?> )</td>
+    </tr>
+    <tr>
+        <td>Abbr. name color on logo</td>
+        <td>
+        <INPUT TYPE="text" class="inputtext" ID="abbrcolor" NAME="abbrcolor"
+        VALUE="<?=$ConfSite_Config->showConfig('abbrcolor')?>"> 
+        <input type="button" value="PICK" class="inputbtn"
+        NAME="pick2" ID="pick2"
+        onClick="cp2.select(document.getElementById('abbrcolor'),'pick2');return false;" >
+        </td>
+    </tr>
+    <!-- }}} Abbr Name -->
+
+    <!-- {{{ Logo bitmap -->
+    <tr>
+        <td>Website Logo Upload<br>(980 x 220 pixels)</td>
+        <td><input type=file name=userfile class="inputtext inputbtn"></td>
+    </tr>
+    <!-- }}} Logo bitmap -->
+
+    <!-- {{{ Site url -->
+    <tr>
+        <td><?=$ConfSite_Config->showConfig('abbrname')?> Website URL</td>
+        <td><input type="text" class="inputtext" name="siteurl"
+        value="<?=($ConfSite_Config->showConfig('siteurl')?
+                $ConfSite_Config->showConfig('siteurl'):$_SERVER['HTTP_HOST']) ?>" /> 
+        </td>
+    </tr>
+    <tr>
+        <td colspan=2 class="right">(e.g. conf<?=date("Y")?>.ee.nthu.edu.tw )</td>
+    </tr>
+    <!-- }}} Site url -->
+
+    <!-- {{{ Site Search -->
+    <!--tr>
+        <td>Enable Google Site Search?</td>
+        <td><input type="radio" name="sitesearch"  value="1"
+            <?=($ConfSite_Config->showConfig('sitesearch')?'checked="checked"':'')?> />YES
+            <input type="radio" name="sitesearch"  value="0"
+            <?=($ConfSite_Config->showConfig('sitesearch')?'':'checked="checked"')?> />NO
+    </tr-->
+    <!-- }}} Site Search -->
+
+    <!-- {{{ TImezone -->
+    <tr>
+        <td>Default Timezone</td>
+        <td><select name="timezone" class="inputtext"
+            onchange="showCurrentTime(this.options[selectedIndex].value)">
+            <?php require_once(dirname(__FILE__)."/../tz.php");
+                foreach ($tz_array as $values) 
+                {
+                    echo "<option value=\"$values\" ";
+                    if ($values == $ConfSite_Config->showConfig('timezone'))
+                        echo 'selected="selected"';
+                    echo ">$values</option>\n";
+                }
+            ?>
+            </select>
+        </td>
+    </tr>
+    <script language="JavaScript" type="text/javascript">
+    function showCurrentTime(tz)
+    {
+        document.getElementById("currenttime").innerHTML=tz;
+    }
+    </script>
+    <!--tr>
+        <td colspan=2 class="right" id="currenttime">Current Time:</td>
+    </tr-->
+    <!-- }}} TImezone -->
+
+    <!-- {{{ Currency -->
+    <tr>
+        <td>Default Currency</td>
+        <td><?php $cur_arr = array("NTD", "USD", "EUR");
+                foreach ($cur_arr as $values) 
+                {
+                    echo "<input type=\"radio\" name=\"currency\" value=\"$values\" ";
+                    if ($values == $ConfSite_Config->showConfig('currency'))
+                        echo 'checked="checked"';
+                    echo " />$values &nbsp;\n";
+                }
+            ?>
+        </td>
+    </tr>
+    <!-- }}} Currency -->
+
+    <!-- {{{ SUBMIT & RESET -->
+    <tr>
+        <td colspan="2" class="right">
+        <input type="submit" class="inputbtn" name="work" value="UPDATE">
+        <input type="reset"  class="inputbtn" name="reset" value="RESET">
+        </td>
+    </tr>
+    <!-- }}} SUBMIT & RESET -->
+
+    </table>
+    </form>
+    <SCRIPT LANGUAGE="JavaScript">cp.writeDiv()</SCRIPT>
+    <SCRIPT LANGUAGE="JavaScript">cp2.writeDiv()</SCRIPT>
+</div>

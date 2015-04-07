@@ -1,0 +1,71 @@
+body {
+    font-family: 'Montserrat';
+}
+
+h2 {
+    color: #369;
+    font-size: 250%;
+    margin-top: 60px;
+}
+
+figure.hero {
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+figure.hero img {
+    width: 100%;
+}
+figure.hero figcaption {
+    font-family: 'Yanone Kaffeesatz';
+    color: #333;
+    text-decoration: none !important;
+    font-size: 150%;
+    /*width:40%;*/
+    /*text-align: left;*/
+    }
+figure.hero figcaption#formal {
+    font-family: 'Roboto Slab';
+    color: #333;
+    text-decoration: none !important;
+    font-size: 100%;
+    text-align:center;
+}
+figure.hero figcaption a:visited {
+    color: inherit;
+    text-decoration: none;
+    text-align: left;
+    float: left
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+
+}
+a:-webkit-any-link{
+    text-decoration:none !important;
+}
+.box{
+  text-align: left;
+  background: black;
+  color: white;
+  overflow: hidden;
+  }
+
+.box p{
+  font-family: 'PT Sans Narrow';
+  float: left;
+  font-size: 160%;
+  widht: 50%;
+  }
+.box img{
+  float: right;
+  width:50%;
+  min-width:100px
+
+}
+.linkcaption1 {
+    color: #147 !important;
+}
+.linkcaption2 {
+    color: #261 !important;
+}

@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> conference program </title>
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <style type="text/css">
+            body {
+                font-family: 'Montserrat', sans-serif;
+            }
+
+            ol, ul {
+                list-style: none;
+                padding: 0;
+            }
+
+
+            h2 {
+                color: #369;
+            }
+            h3 {
+                color: #aaa;
+                font-size: 150%;
+                padding-left: 20px;
+            }
+
+            li > a,
+            li > a:visited {
+                text-decoration: none;
+                color: inherit;
+            }
+
+
+            /* Program */
+            #program {
+                padding-left: 20px;
+            }
+
+            #program li {
+            }
+
+            #program li:hover {
+                background: #f4f4f4;
+                color: #474;
+            }
+
+            #program li > a {
+                display: block;
+                padding: 15px 20px;
+            }
+
+            .date {
+                color: #333;
+                padding-right: 20px;
+            }
+
+            .topic {
+                font-weight: bold;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h2>Program</h2>
+        <ol id="program">
+            <li><a href="#25-aug">
+                <span class="date">25 Aug</span>
+                <span class="topic">Computational Neuroscience</span>
+            </a></li>
+                <li><a href="#26-aug">
+                <span class="date">26 Aug</span>
+                <span class="topic">Neuroinformatics</span>
+            </a></li>
+            <li><a href="#27=aug">
+                <span class="date">27 Aug</span>
+                <span class="topic">Neuromorphic Devices and Systems</span>
+            </a></li>
+        </ol>
+        <h2>Daily Schedule</h2>
+        <h3>25 Aug Computational Neuroscience</h3>
+        <ol class="schedule">
+            <li>
+                <span class="time">25 Aug</span>
+                <span class="session">Computational Neuroscience</span>
+            </li>
+            <li>
+                <span class="time">
+                    <span class="time-start">9:00</span>
+                    <span class="time-end">10:30</span>
+                <span>
+                <span class="session"></span>
+            </li>
+            <li>
+                <span class="time"></span>
+                <span class="session"></span>
+            </li>
+            <li>
+                <span class="time"></span>
+                <span class="session"></span>
+            </li>
+        </ol>
+        <h4>25 Aug Computational Neuroscience</h4>
+        <ol class="schedule">
+            <li>
+                <span class="date">25 Aug</span>
+                <span class="topic">Computational Neuroscience</span>
+            </li>
+            <li>
+                <span class="date">26 Aug</span>
+                <span class="topic">Neuroinformatics</span>
+            </li>
+
+            <li>
+                <span class="date">27 Aug</span>
+                <span class="topic">Neuromorphic Devices and Systems</span>
+            </li>
+        </ol>
+        <!--
+                    <th>Computational Neuroscience</th>
+                    <th>Neuroinformatics</th>
+                    <th>Neuromorphic Devices and Systems</th>
+                    <th>Brainstorming Sessions</th>
+                    <th>Neuromorphic Computation with Devices in Advanced Technologies </th>
+                    <th>Brain-Machine Interface and Neural Prostheses</th>
+                    <th>Adaptive, Hybrid Neuroelectronic Systems</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="time"><time>9:00</time>-<time>10:30</time></th>
+                    <td>Speaker1-1</td>
+                    <td>Speaker2-1</td>
+                    <td>Speaker3-1</td>
+                    <td rowspan="9"></td>
+                    <td>Speaker5-1</td>
+                    <td>Speaker6-1</td>
+                    <td>Speaker7-1</td>
+                </tr>
+                <tr>
+                    <th class="break time">10:30-11:00</th>
+                    <td class="break" colspan="3">Coffee Break</td>
+                    <td class="break" colspan="3"></td>
+                </tr>
+                <tr>
+                    <th class="time">11:00-12:30</th>
+                    <td>Speaker1-2</td>
+                    <td>Speaker2-2</td>
+                    <td>Speaker3-2</td>
+                    <td>Speaker5-2</td>
+                    <td>Speaker6-2</td>
+                    <td>Speaker7-2</td>
+                </tr>
+                <tr>
+                    <th class="break time">12:30-14:00</th>
+                    <td class="break" colspan="3">Lunch</td>
+                    <td class="break" colspan="3"></td>
+                </tr>
+                <tr>
+                    <th class="time" rowspan="2">14:00-15:30</th>
+                    <td class="forum"colspan="3">Discussion Forums</td>
+                    <td class="forum"></td>
+                    <td rowspan="2">Speaker5-3</td>
+                    <td rowspan="2">Speaker6-3</td>
+
+
+
+                </tr>
+                <tr>
+                    <td>Speaker1-3,4</td>
+                    <td>Speaker2-3,4</td>
+                    <td>Speaker3-3,4</td>
+                    <td>Speaker4-3,4</td>
+                </tr>
+                <tr>
+                    <th class="break time">15:30-16:00</th>
+                    <td class="break" colspan="3">Coffee Break</td>
+                    <td class="break" colspan="3"></td>
+                </tr>
+                <tr>
+                    <th class="time">16:00-19:00</th>
+                    <td colspan="3">Hands-On Projects</td>
+                    <td colspan="2"></td>
+                    <td>Project Presentation</td>
+
+                </tr>
+                <tr>
+                    <th class="break time">19:00-21:00</th>
+                    <td class="break" colspan="3">Dinner</td>
+                    <td class="break" colspan="2"></td>
+                    <td>Closing Ceremony</td>
+                </tr>
+            </tbody>
+        </table> -->
+    </body>
+</html>
