@@ -399,7 +399,7 @@
 
 
  /*table*/
- .new table.prog {
+ /*.new table.prog {
      height: 300px;
      font-size: 5px;
 }
@@ -450,4 +450,41 @@
     font-size: 12px;
     text-align:left;
     width: 178px
+}*/
+
+/* Conference Program Table */
+
+.new #prog {
+    border-spacing: 0
+}
+
+.new #prog th,
+.new #prog td {
+
+    padding: 0;
+}
+
+.new .prog-time {
+    background: green;
+}
+.new .prog-speach{
+    background: red;
+}
+.new .prog-brainstorm{
+    background: yellow;
+}
+.new .prog-forum{
+    background: blue;
+}
+.new .prog-break{
+    background: pink;
+}
+.new .prog-hands-on-project{
+    background: purple;
+}
+.new #prog-program-present{
+    background: brown;
+}
+.new #prog-closing-ceremony {
+    background: cyan;
 }
