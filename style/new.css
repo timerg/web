@@ -455,36 +455,70 @@
 /* Conference Program Table */
 
 .new #prog {
-    border-spacing: 0
+    width: 640px;
+    border-spacing: 10px;
+    margin: 20px 0;
 }
 
 .new #prog th,
 .new #prog td {
-
     padding: 0;
+    margin: 0;
+}
+
+.new #prog th {
+    width: 50px;
+}
+
+.new .prog-day {
+    color: #aaa;
+}
+
+.new .prog-session {
+    height: 50px;
 }
 
 .new .prog-time {
-    background: green;
+    width: 50px;
+    color: #aaa;
 }
-.new .prog-speach{
-    background: red;
+.new .prog-speech {
+    background: #369;
 }
-.new .prog-brainstorm{
-    background: yellow;
+.new .prog-brainstorm {
+    background: #d82;
+    width: 50px;
 }
-.new .prog-forum{
-    background: blue;
+.new .prog-forum {
+    background: #c44;
 }
-.new .prog-break{
-    background: pink;
+.new .prog-break {
+    text-align: center;
+    color: #aaa;
 }
-.new .prog-hands-on-project{
-    background: purple;
+.new .prog-hands-on-project {
+    background: #474;
 }
-.new #prog-program-present{
-    background: brown;
+
+.new .prog-others {
+    width: 50px;
+    background: #888;
 }
-.new #prog-closing-ceremony {
-    background: cyan;
+
+.new #prog-color {
+    font-size: 120%;
 }
+.new #prog-color li {
+    padding-left: 20px
+}
+.new #prog-color li::before {
+    content: "■ ";
+    font-size: 150%;
+    position: relative;
+    top: 5px;
+}
+.new .prog-color-speech { color: #369; }
+.new .prog-color-forum { color: #c44; }
+.new .prog-color-hands-on-project { color: #474; }
+.new .prog-color-brandstorm { color: #d82; }
+.new .prog-color-others { color: #555; }
