@@ -294,7 +294,7 @@
     font-size: 100%;
     text-align:center;
 }
-.new figure.hero figcaption#formal2 {
+.new #quote {
     font-family: 'Roboto Slab';
     font-style: italic;
     color: #333;
@@ -438,6 +438,7 @@
 }
 .new .picture2{
     margin: 20px 68px;
+    border: 0px;
 }
 .new figure.conf{
     width: 40%;
@@ -570,3 +571,9 @@
 .new .prog-color-hands-on-project { color: #474; }
 .new .prog-color-brandstorm { color: #d82; }
 .new .prog-color-others { color: #555; }
+
+/*Video*/
+.vedio-container{
+    max-width: 1280px;
+    margin: 5px 68px;
+}
