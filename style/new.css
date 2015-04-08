@@ -10,9 +10,9 @@
 
 .new ol,
 .new ul {
-    list-style: none;
+    /*list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0;*/
 }
 
 .new h2 {
@@ -60,6 +60,11 @@
     margin: 40px 20px;
     font-size: 150%;
     float: left;
+}
+.new #program li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .new #program li:hover {
@@ -168,6 +173,9 @@
     overflow: hidden;
     padding: 10px 0;
     border-bottom: 3px #eee solid;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .new .schedule > li:last-of-type {
@@ -240,6 +248,12 @@
     color: grey;
 }
 
+.new .session .speaker li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+}
 .new .session .from {
     color: grey;
 }
@@ -340,16 +354,26 @@
     width: 70%;
 }
 
+.new .speaker{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 .new .speaker:after {
    content: ".";
    visibility: hidden;
    display: block;
    height: 0;
    clear: both;
+
 }
+
 
 .new .detail ul {
     margin: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -374,6 +398,28 @@
 
 
 }
+/********************************************/
+/*   Transportation                         */
+/********************************************/
+.new .trans ol.none {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.new .trans table {
+    border-spacing: 0px;
+    padding-top:10px;
+    border-color: #555;
+}
+
+.new .trans table td.category{
+    font-size: 12px;
+    text-align:left;
+    width: 178px
+}
+
 
 /* pics */
 .new .picture {
@@ -443,16 +489,7 @@
 }
 
 
-.new table.trans{
-      border-spacing: 0px;
-      padding-top:10px;
-      border-color: #555;
-}
-.new table.trans td.category{
-    font-size: 12px;
-    text-align:left;
-    width: 178px
-}*/
+
 
 /* Conference Program Table */
 
@@ -511,7 +548,10 @@
     font-size: 120%;
 }
 .new #prog-color li {
-    padding-left: 20px
+    padding-left: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 .new #prog-color li::before {
     content: "■ ";
