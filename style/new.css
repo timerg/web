@@ -37,6 +37,10 @@
     margin: 20px 0;
     font-size: 130%;
 }
+.new h6{
+    font-size: 120%
+
+}
 
 .new a {
     text-decoration: none;
@@ -401,10 +405,11 @@
 /********************************************/
 /*   Transportation                         */
 /********************************************/
-.new .trans ol.none {
+.new ol.none {
     list-style: none;
     padding: 0;
     margin: 0;
+    font-weight: inherit;
 }
 
 
@@ -419,6 +424,7 @@
     text-align:left;
     width: 178px
 }
+
 
 
 /* pics */
