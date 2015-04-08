@@ -8,13 +8,6 @@
     color: #333;
 }
 
-.new ol,
-.new ul {
-    /*list-style: none;
-    padding: 0;
-    margin: 0;*/
-}
-
 .new h2 {
     color: hsl(210, 50%, 40%);
     font-size: 250%;
@@ -363,13 +356,15 @@
     padding: 0;
     margin: 0;
 }
+.new .speaker-list{
+    padding-left:0;
+}
 .new .speaker:after {
    content: ".";
    visibility: hidden;
    display: block;
    height: 0;
    clear: both;
-
 }
 
 
@@ -396,9 +391,16 @@
     width: 70%;
     display: inline-block;
 }
+.new .detail-description{
+    float: left;
+    padding-left: 20px;
+    font-size:50%;
+    margin-bottom: 20px;
+
+}
 
 .new .detail-body {
-    padding: 10px 20px;
+    padding: 10px 2px 10px 20px;
 
 
 }
