@@ -1,19 +1,5 @@
 
 /*
-hoem
-*/
-.new .float figure{
-    float: right;
-    margin-right: 0;
-}
-.new .float2{
-    float: right;
-}
-
-
-
-
-/*
  *  general styles
  */
 
@@ -30,8 +16,8 @@ hoem
 
 .new h3 {
     font-size: 200%;
-    margin: 20px 0 20px;
-    /*overflow: hidden;*/
+    margin: 80px 0 0;
+    overflow: hidden;
 }
 .new h4 {
     font-family: 'Montserrat', sans-serif;
