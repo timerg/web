@@ -8,6 +8,12 @@ hoem
 }
 .new .float2{
     float: right;
+    margin-right: 0;
+}
+.new .float3{
+    float: left;
+    margin: 0;
+
 }
 
 
@@ -94,7 +100,7 @@ hoem
 
 .new .note {
     font-family: verdana;
-    color: grey;
+    color: grey !important;
     font-size: 40%;
     margin-left: 40px;
     font-weight: normal;
