@@ -51,9 +51,9 @@ hoem
     font-size: 130%;
 }
 .new h6{
-    font-size: 120%
-
+    font-size: 120%;
 }
+
 
 .new a {
     text-decoration: none;
@@ -475,52 +475,6 @@ hoem
 }
 
 
- /*table*/
- /*.new table.prog {
-     height: 300px;
-     font-size: 5px;
-}
-.new table.prog td,
-.new table.prog th{
-     height: 30px;
-
-     padding: 0;
-     text-align: center;
-}
- .new table.prog th.tdate{
-     color: #fff;
-     background: #222;
-
- }
- .new table.prog th.time {
-
-}
- .new table.prog td.speach {
-     background:hsla(210, 50%, 40%, 0.6);
-}
-.new table.prog td.forum {
-    background: hsla(0, 65%, 42%, 0.71);
-}
-.new table.prog td.break {
-    background: #eee;
-}
-.new table.prog td.bs {
-    background: hsla(0, 0%, 90%, 1);
-}
-.new table.prog td.hp {
-    background: hsla(45, 57%, 53%, 6);
-}
-.new table.prog td#cs {
-    background: hsla(120, 27%, 37%, 6);
-}
-.new table.prog td#pp {
-    background: hsla(57, 68%, 68%, 0.6);
-}
-
-
-
-
-/* Conference Program Table */
 
 .new #prog {
     width: 640px;
@@ -532,6 +486,10 @@ hoem
 .new #prog td {
     padding: 0;
     margin: 0;
+}
+
+.new #prog td:hover > a{
+    padding: 20px 25px;
 }
 
 .new #prog th {
@@ -553,6 +511,12 @@ hoem
 .new .prog-speech {
     background: #369;
 }
+
+.new .prog-speech:hover{
+    background: hsla(210, 50%, 19%, 1);
+}
+
+
 .new .prog-brainstorm {
     background: #d82;
     width: 50px;
@@ -560,12 +524,19 @@ hoem
 .new .prog-forum {
     background: #c44;
 }
+.new .prog-forum:hover{
+    background: hsla(0, 57%, 20%, 1);
+}
 .new .prog-break {
     text-align: center;
     color: #aaa;
 }
 .new .prog-hands-on-project {
     background: #474;
+}
+
+.new .prog-hands-on-project:hover {
+    background: hsla(120, 27%, 19%, 1);
 }
 
 .new .prog-others {
