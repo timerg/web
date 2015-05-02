@@ -317,7 +317,7 @@ hoem
 .new figure.hero figcaption a:visited {
     color: inherit;
     text-align: left;
-    float: left
+    float: left;
     position: relative;
     bottom: 0px;
     left: 0px;
@@ -442,16 +442,16 @@ hoem
 
 
 
-.new .trans table {
-    border-spacing: 0px;
-    padding-top:10px;
-    border-color: #555;
+.new table.wb {
+    border-spacing: 5px;
+    border-color: #222 !important;
+    padding-top:30px;
 }
 
-.new .trans table td.category{
+.new  table.wb td.category{
+    color: #777;
     font-size: 12px;
-    text-align:left;
-    width: 178px
+    text-align: left;
 }
 
 
