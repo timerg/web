@@ -433,6 +433,13 @@ hoem
     margin: 0;
     font-weight: inherit;
 }
+.new ul.none {
+    margin: 20px;
+    list-style: none;
+    padding-left: 40px;
+    margin: 0;
+}
+
 
 
 .new .trans table {
