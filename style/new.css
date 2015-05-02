@@ -446,10 +446,19 @@ hoem
     border-spacing: 5px;
     border-color: #222 !important;
     padding-top:30px;
+    border-bottom: 1px #ccc solid;
 }
 
 .new  table.wb td.category{
     color: #777;
+    font-size: 12px;
+    text-align: left;
+}
+
+
+.new  table.wb td.category_col{
+    background: #222;
+    color: #fff;
     font-size: 12px;
     text-align: left;
 }
