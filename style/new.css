@@ -456,7 +456,7 @@ hoem
 }
 
 
-.new  table.wb td.category_col{
+.new  table.wb th.category_col{
     background: #222;
     color: #fff;
     font-size: 12px;
