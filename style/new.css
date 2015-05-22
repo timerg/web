@@ -254,10 +254,15 @@ hoem
     padding: 20px
 }
 
+.new .session h5 {
+    margin: 20px 0;
+    font-size: 200%;
+    color: #474;
+}
 .new .session h4 {
     margin: 20px 0;
-    font-size: 100%;
-    color: #474;
+    font-size: 130%;
+    color: #528952;
 }
 
 .new .session .speaker {
@@ -270,7 +275,7 @@ hoem
     padding: 0;
     margin: 0;
 }
-}
+
 .new .session .from {
     color: grey;
 }
