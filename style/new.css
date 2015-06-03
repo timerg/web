@@ -100,7 +100,7 @@ hoem
 
 .new .note {
     font-family: verdana;
-    color: red !important;
+    color: hsl(210, 50%, 40%);
     font-size: 48%;
     margin-left: 40px;
     font-weight: normal;
