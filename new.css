@@ -288,6 +288,7 @@ hoem
 .new figure.hero {
     max-width: 1280px;
     margin: 0px auto;
+    margin-bottom: 10px;
 }
 
 .new figure.hero img {
