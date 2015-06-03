@@ -293,7 +293,8 @@ hoem
 .new .photo {
   width: 140px;
   margin: 0px;
-  padding: 0px;
+  padding-top: 40px;
+  /*padding: 0px;*/
   float: right;
   display: block;
 
