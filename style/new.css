@@ -255,7 +255,8 @@ hoem
 
 .new .session {
     margin-left: 160px;
-    padding: 20px
+    margin-right: 180px;
+    padding: 20px;
 }
 
 .new .session h5 {
@@ -289,6 +290,14 @@ hoem
     color: #aaa;
 }
 
+.new .photo {
+  width: 140px;
+  margin: 0px;
+  padding: 0px;
+  float: right;
+  display: block;
+
+}
 /********************************************/
 /*   Accommodation                          */
 /********************************************/
