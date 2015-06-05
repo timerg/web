@@ -297,7 +297,10 @@ hoem
   /*padding: 0px;*/
   float: right;
   display: block;
-
+}
+.new .abstract {
+    margin-left: 150px;
+    padding-left: 20px;
 }
 /********************************************/
 /*   Accommodation                          */
