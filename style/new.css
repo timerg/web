@@ -259,15 +259,34 @@ hoem
     padding: 20px;
 }
 
+.new .session-hands-on-project {
+    margin-left: 160px;
+    margin-right: 0px;
+    padding: 20px;
+}
+
 .new .session h5 {
     margin: 20px 0;
     font-size: 200%;
     color: #474;
 }
+
+.new .session-hands-on-project h5{
+    margin: 20px 0;
+    font-size: 200%;
+    color: #474;
+}
+
 .new .session h4 {
     margin: 20px 0;
     font-size: 130%;
     color: #528952;
+}
+
+.new .session-hands-on-project h4{
+    margin: 20px 0;
+    font-size: 130%;
+    color: rgb(66, 66, 70);
 }
 
 .new .session .speaker {
