@@ -403,6 +403,9 @@ hoem
     color: rgb(82, 137, 82) !important;
     font-size: 120%;
 }
+.new .linkcaption3 {
+    color: inherit;
+}
 
 /********************************************/
 /*   General                                */
