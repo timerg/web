@@ -283,10 +283,20 @@ hoem
     color: #528952;
 }
 
-.new .session-hands-on-project h4{
+.new .session-hands-on-project h4 {
     margin: 20px 0;
     font-size: 130%;
-    color: #424246;
+    color: #528952;
+}
+
+.new .session-hands-on-project h6{
+    margin: 20px 0;
+    font-size: 110%;
+    color: #528952;
+}
+
+.new .session-hands-on-project a {
+    color: #427db8;
 }
 
 .new .session .speaker {
