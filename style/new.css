@@ -110,8 +110,8 @@ hoem
 
 .new .links {
     font-family: verdana;
-    font-size: 100%;
-    text-align: center;
+    font-size: 60%;
+    text-align: left;
     font-weight: bold;
     margin-bottom: 40px;
 }
@@ -119,19 +119,33 @@ hoem
 .new .links a {
     color: inherit;
 }
-.new .links span#red{
-    margin: 40px;
-    color: #c44;
+
+.new .links li span {
+    font-weight: lighter;
+    float:right;
+}
+.new .links li#red{
+    margin-right: 350px;
+    margin-bottom: 15px;
+    padding: 10px;
+    color: #fff;
+    background: #c44;
 }
 
-.new .links span#blue{
-    margin: 40px;
-    color: #369;
+.new .links li#blue{
+    margin-right: 350px;
+    margin-bottom: 15px;
+    padding: 7px;
+    color: #fff;
+    background: #369;
 }
 
-.new .links span#green{
-    margin: 40px;
-    color: #474;
+.new .links li#green{
+    margin-right: 350px;
+    margin-bottom: 15px;
+    padding: 10px;
+    color: #fff;
+    background: #474;
 }
 
 .new .discussion-icon,
