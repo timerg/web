@@ -57,9 +57,12 @@ hoem
 
 .new a {
     text-decoration: none;
+    -webkit-transition: color 1s ease;
+    transition: color 1s ease;
 }
 .new a:hover {
     text-decoration: underline;
+    color: rgb(18, 58, 98);
 }
 
 
