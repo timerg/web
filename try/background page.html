@@ -8,6 +8,33 @@
         		-moz-background-size: cover;
         		background-size: cover;
         	}
+          .grow {
+            border: 10px solid #fff;
+            float: right;
+            height: 300px;
+            width: 300px;
+            margin: 20px;
+            overflow: hidden;
+
+            -webkit-box-shadow: 5px 5px 5px #111;
+                    box-shadow: 5px 5px 5px #111;
+          }
+
+          .grow img {
+            height: 400px;
+            width: 400px;
+
+            -webkit-transition: all 1s ease;
+               -moz-transition: all 1s ease;
+                 -o-transition: all 1s ease;
+                -ms-transition: all 1s ease;
+                    transition: all 1s ease;
+          }
+
+          .grow img:hover {
+            width: 300px;
+            height: 300px;
+          }
           circle {
             mix-blend-mode: screen;
             }
@@ -19,5 +46,8 @@
         <circle cx="80" cy="40" r="40" fill="lightgreen"/>
         <circle cx="60" cy="80" r="40" fill="blue"/>
       </svg>
+      <div class="grow pic">
+        <img src="http://lorempixel.com/400/400/people/9" alt="portrait">
+      </div>
     </body>
 </html>

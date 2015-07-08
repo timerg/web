@@ -364,13 +364,31 @@ hoem
 }
 
 .new .photo {
+  border: 10px solid #fff;
+  border-radius: 50%;
   width: 140px;
+  height: 140px;
   margin: 0px;
-  padding-top: 40px;
   /*padding: 0px;*/
   float: right;
-  display: block;
+  overflow: hidden;
+  -webkit-box-shadow: 5px 5px 5px #111;
+          box-shadow: 5px 5px 5px #111;
 }
+
+.new .photo img{
+  width: 150px;
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.new .photo img:hover{
+  width: 140px;
+}
+
 .new .abstract {
     margin-left: 150px;
     padding-left: 20px;
