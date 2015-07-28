@@ -44,7 +44,7 @@ cliff.liChun-HsiLin                     cliff.lin@cssp.cHsinchu 8.86E+12A1297048
 zilinhusJinyong ZHANG                                                                                                                                                                                                                  0No
 tsehui@gHui     XIE                     Department of ElHong Kon-6.7E+07G42113291976/5/1Male            DepartmeXIE Hui NA      Internat8000*1  Vegetari0*1     Route A:0*1     No Ticke0*1     No Ticke0*1     Full len5600*1     13600Yes
 eessllwwYi      Wang                    603D, Hall8, StuHong Kon8.53E+10E00597231986/9/7Male            City UniYi Wang NA      Internat8000*1  Non-vege0*1     Route A:0*1     No Ticke0*1     No Ticke0*1     Full len5600*1     13600Yes
-saniabbaSANI    ABBA    ComputerChosun UComputerMr.     South Ko8.20E+12A05769701979/2/2MALE            CHOSUN UABBA SANNA      Internat8000*1  Non-vege0*1     Route A:0*1     Train No440*1   Train No440*1   Full len5600*1     14480Yes
+saniabbaSANI    ABBA    ComputerChosun UComputerMr.     South Ko 8.2E+12A05769701979/2/2MALE            CHOSUN UABBA SANNA      Internat8000*1  Non-vege0*1     Route A:0*1     Train No440*1   Train No440*1   Full len5600*1     14480Yes
 apj@ieeealex    james                                                                                                                                                                                                                  0No
 akumari@Anita   kumari                  Lovely ProfessioIndia   9.18E+11F69162881980/3/7Female          LPU     Anita   NA      Internat8000*1  Vegetari0*1     Route B:0*1     No Ticke0*1     No Ticke0*1     Full len5600*1     13600No
 h-okuno@HirotsugOkuno   GraduateOsaka University        Japan                   1978/9/1male                                                                                                                                           0No
@@ -72,12 +72,16 @@ ieesyl@mShuenn-YLee                                                             
 yanjie00Liao    yanjie                                                                                                                                                                                                                 0No
 wctang@uWilliam Tang                                                                                                                                                                                                                   0No
 ywliu@eeYi-Wen  Liu                     新竹市光復路2段1Taiwan      -707A12402271974/2/2male            National國立清華46804804Taiwanes8000*1  Non-vege0*1     Route B:0*1     No Ticke0*1     No Ticke0*1     Full len5600*1     13600No
-b0090111Meng-HuaWu                      桃園市桃園區中埔Taiwan  8.87E+11H1243814########Male            National國立臺灣 3734301Taiwanes6000*1  Non-vege0*1     Route A:0*1     Train No440*1   Train No440*1   Full len5600*1     12480No
+b0090111Meng-HuaWu                      桃園市桃園區中埔Taiwan  8.87E+11H1243814########Male            National國立臺灣 3734301Taiwanes6000*1  Non-vege0*1     Route A:0*1     Train No440*1   Train No440*1   Full len5600*1     12480Yes
 tren.huaTsung-ReHuang                                                                                                                                                                                                                  0No
-m65013@gYu-Po   Lin                     頂埔里天仁西村30台灣    8.87E+11K122323019850421男              NTHU    國立清華46804804Taiwanes6000*1  Non-vege0*1     No Day T0*1     No Ticke0*1     No Ticke0*1     No Accom0*1         6000No
+m65013@gYu-Po   Lin                     頂埔里天仁西村30台灣    8.87E+11K122323019850421男              NTHU    國立清華46804804Taiwanes6000*1  Non-vege0*1     No Day T0*1     No Ticke0*1     No Ticke0*1     Full len5600*1     11600No
 baseballkevin   shih                                                                                                                                                                                                                   0No
-sryeh@liShih-Runyeh                     清華大學光復路二Taiwan  886-9636S12060261957/5/2MALE            PROFESSO國立清華46804804Taiwanes8000*1  Vegetari0*1     Route A:0*1     No Ticke0*1     No Ticke0*1     Second h3200*1     11200No
+sryeh@liShih-Runyeh                     清華大學光復路二Taiwan  886-9636S12060261957/5/2MALE            PROFESSO國立清華46804804Taiwanes8000*1  Non-vege0*1     Route A:0*1     No Ticke0*1     No Ticke0*1     Second h3200*1     11200Yes
 gtx4869@jason   huang   IEE     NTHU    No. 101,Student Taiwan  9.12E+08C1214489########male            NTHU    NTHU    46804804                                                                                                       0No
+arescoldMing-FenWang                                                                                                                                                                                                                   0No
+cfjiang@青芬    江                      義守大學 生物醫 Taiwan  9.59E+08A221543519660113F               義守大學義守大學 7927743Taiwanes8000*1  Non-vege0*1     Route A:0*1     Train No440*1   Train No440*1   Full len5600*1     14480No
+g.cohen@Greg    Cohen                                                                                                                                                                                                                  0No
+sylviasuHERMING CHIUEH                  ED724, NATIONAL TAIWAN  8.87E+11C12065541971/2/2MALE            NATIONALNATIONAL46804706Taiwanes8000*1  Non-vege0*1     No Day T0*1     No Ticke0*1     No Ticke0*1     Second h3200*1     11200No
 FIRST NALAST NAME
 Hsin    Chen
 YI-DA   WU
@@ -158,3 +162,7 @@ Yu-Po   Lin
 kevin   shih
 Shih-Runyeh
 jason   huang
+Ming-FenWang
+青芬    江
+Greg    Cohen
+HERMING CHIUEH
